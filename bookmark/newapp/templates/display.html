@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Django Application</title>
+ </head>
+ <body>
+
+	<h1>Newappdetails</h1>
+
+	{% for newapp in newappdetails %}
+	<p><h2>{{newapp.title}} - {{newapp.content}}</h2></p> 
+	{% endfor %}
+
+ </body>
+ </html>  
